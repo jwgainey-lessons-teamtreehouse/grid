@@ -5,7 +5,7 @@
 .grid {
    max-width: 800px;
    display: grid;
-   grid-template-columns: 200px 2fr 200px;
+   grid-template-columns: 2fr repeat(3, 1fr);
    grid-template-rows: 100px 200px;
-   grid-gap: 40px;
+   grid-gap: 15px;
 }
